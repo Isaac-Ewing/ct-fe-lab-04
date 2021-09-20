@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Controls tests for form with two inputs, radio selections, and a button 1`] = `
+<form
+  data-testid="controls-form"
+>
+  <input
+    aria-label="urlTextbox"
+    name="url"
+    placeholder="URL"
+    type="text"
+    value=""
+  />
+  <section
+    aria-label="methodSelector"
+    class="radio-route"
+  >
+    <input
+      id="GET"
+      name="method"
+      type="radio"
+      value="GET"
+    />
+    <label
+      for="GET"
+    >
+      GET
+    </label>
+    <input
+      id="POST"
+      name="method"
+      type="radio"
+      value="POST"
+    />
+    <label
+      for="POST"
+    >
+      POST
+    </label>
+    <input
+      id="PUT"
+      name="method"
+      type="radio"
+      value="PUT"
+    />
+    <label
+      for="PUT"
+    >
+      PUT
+    </label>
+    <input
+      id="PATCH"
+      name="method"
+      type="radio"
+      value="PATCH"
+    />
+    <label
+      for="PATCH"
+    >
+      PATCH
+    </label>
+    <input
+      id="DELETE"
+      name="method"
+      type="radio"
+      value="DELETE"
+    />
+    <label
+      for="DELETE"
+    >
+      DELETE
+    </label>
+    <button
+      aria-label="submit-button"
+    >
+      Go!
+    </button>
+  </section>
+  <textarea
+    aria-label="jsonText"
+    name="rawJson"
+    placeholder="JSON body"
+    type="text"
+  />
+</form>
+`;

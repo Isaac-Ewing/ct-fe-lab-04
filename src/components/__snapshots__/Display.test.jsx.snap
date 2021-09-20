@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Display displays a json object 1`] = `
+<span
+  class="string-value"
+  style="cursor: default;"
+>
+  "
+  world
+  "
+</span>
+`;
