@@ -7,19 +7,19 @@ const Controls = ({ url, rawJson, onChange, onSubmit }) => (
     <form onSubmit={onSubmit} onChange={onChange} data-testid="controls-form">
       <input type="text" aria-label="urlTextbox" placeholder="URL" value={url} name="url" onChange={onChange}/>
       <section aria-label="methodSelector" className="radio-route">
-        <input type="radio" name="method" value="GET" id="GET"/>
+        <input type="radio" name="method" value="GET" id="GET" onChange={onChange}/>
         <label htmlFor="GET">GET</label> 
         
-        <input type="radio" name="method" value="POST" id="POST"/>
+        <input type="radio" name="method" value="POST" id="POST" onChange={onChange}/>
         <label htmlFor="POST">POST</label>
 
-        <input type="radio" name="method" value="PUT" id="PUT"/>
+        <input type="radio" name="method" value="PUT" id="PUT" onChange={onChange}/>
         <label htmlFor="PUT">PUT</label>
 
-        <input type="radio" name="method" value="PATCH" id="PATCH"/>
+        <input type="radio" name="method" value="PATCH" id="PATCH" onChange={onChange}/>
         <label htmlFor="PATCH">PATCH</label>
 
-        <input type="radio" name="method" value="DELETE" id="DELETE"/>
+        <input type="radio" name="method" value="DELETE" id="DELETE" onChange={onChange}/>
         <label htmlFor="DELETE">DELETE</label>
 
         <button aria-label="submit-button">Go!</button>
